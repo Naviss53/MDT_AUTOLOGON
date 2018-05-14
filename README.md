@@ -13,7 +13,7 @@ https://www.autoitscript.com/site/autoit-script-editor/downloads/
 
 ## Utilisation
 ### Pré-requis
-Nécessite `powershell v2` d'installer sur le poste exécutant le programme.  
+Nécessite `powershell v2` d'installé sur le poste exécutant le programme.  
 Nécessite d'être `Exécuter en tant qu'administrateur`  
 
 ### Commande
