@@ -22,7 +22,7 @@ MDT_AUTOLOGON s'utilise comme suit depuis une ligne de commande `cmd` :
 Exemple :  
 `MDT_AUTOLOGON.exe toto totopass totodomain`
 
-Le paramètre `<domain>`est facultatif si l'utilisateur est un compte local du poste.  
+Le paramètre `<domain>` est facultatif si l'utilisateur est un compte local du poste.  
 
 ### Cas particulier
 Si un ou plusieurs des paramètres utilisés en ligne commande comportent un ou plusieurs guillemets, ceux-ci doivent être échappés.  
