@@ -1,7 +1,7 @@
 # MDT_AUTOLOGON  
 
 ## Introduction  
-MDT_AUTOLOGON et un programme réalisé en code AutoIT 3. Il a pour objectif de configurer un poste en ouverture de session automatique pour par exemple, mettre un poste en mode kiosque.  
+MDT_AUTOLOGON et un programme réalisé en code AutoIT 3. Il a pour objectif de configurer un poste en ouverture de session automatique pour par exemple, le mettre en mode kiosque.  
 
 MDT_AUTOLOGON ne stocke pas le mot de passe de session utilisateur en clair dans la valeur de registre "DefaultPassword" située dans "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon". En lieu et place, il utilise la fonction "LsaStorePrivateData" du module WIN32 "Advapi32.lib" qui va permettre de stocker le mot de passe chiffré dans une valeur présente dans une sous-clé de "HKEY_LOCAL_MACHINE\SECURITY\Policy\Secrets".  
 
