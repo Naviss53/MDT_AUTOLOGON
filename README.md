@@ -37,5 +37,5 @@ Dans le champ "Command Line", tapez une commande du même genre :
 
 Ou %SCRIPTROOT% correspond au dossier "Scripts" de votre "DeploymentShare" ou est stocké votre exécutable.  
 
-#### Ne pas exécuter l'exécutable directement dans une etape `Run Command Line` sinon l'étape ne se terminera jamais.
+#### Dans une séquence de tâches MDT, il ne faut pas lancer l'exécutable directement dans une etape `Run Command Line` sinon l'étape ne se terminera jamais. Utilisez `cmd.exe /C start`
 
