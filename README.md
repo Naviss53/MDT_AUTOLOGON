@@ -35,6 +35,7 @@ En fin de séquence, créez une nouvelle étape du type `Run Command Line`
 Dans le champ "Command Line", tapez une commande du même genre :  
 `cmd.exe /C start %SCRIPTROOT%\MDT_AUTOLOGON.exe toto totopass totodomain`  
 
-Ou %SCRIPTROOT% correpond au dossier "Scripts" de votre "DeploymentShare" ou est stocké votre exécutable. 
+Ou %SCRIPTROOT% correspond au dossier "Scripts" de votre "DeploymentShare" ou est stocké votre exécutable.  
 
+#### Ne pas exécuter l'exécutable directement dans une etape `Run Command Line` sinon l'étape ne se terminera jamais.
 
