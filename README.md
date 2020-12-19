@@ -29,7 +29,7 @@ Si un ou plusieurs des paramètres utilisés en ligne commande comportent un ou 
 Exemple pour un mot de passe `"totopass"` :  
 `MDT_AUTOLOGON.exe toto """totopass""" totodomain`  
 
-### Integration à une séquence de tâche MDT
+### Integration à une séquence de tâches MDT
 En fin de séquence, créez une nouvelle étape du type `Run Command Line`  
 
 Dans le champ "Command Line", tapez une commande du même genre :  
